@@ -14,12 +14,6 @@ vector<int>fint_two_sum(vector<int>&vecc , int n , int target){
     int mid  = start + end;
    }
 }
-vector<int>fint_three_sum(vector<int>&vecc , int n , int target){
-   
-}
-vector<int>fint_four_sum(vector<int>&vecc , int n , int target){
-   
-}
 
 
 int main(){
