@@ -8,18 +8,6 @@ function brute_force(arr, n) {
     }
   }
 }
-
-function brute_force_max_sum(arr, n) {
-  let curr_sum = 0;
-  let max_sum = 0;
-  for (let st = 0; st < n; st++) {
-    for (let end = st; end < n; end++) {
-      curr_sum += arr[end];
-      max_sum = Math.max(curr_sum, max_sum);
-    }
-    return max_sum;
-  }
-}
 function kadans_algorithm(arr, n) {
   let curr_sum = 0;
   let max_sum = 0;
