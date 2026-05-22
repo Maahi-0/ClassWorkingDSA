@@ -1,0 +1,2 @@
+//array questions
+// 1:
